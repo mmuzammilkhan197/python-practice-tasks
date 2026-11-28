@@ -1,6 +1,6 @@
 student = {
     "name": "Muzammil",
-    "age": 20,
+    "age": 19,
     "field": "BCIS",
     "marks": 85
 }
@@ -20,7 +20,7 @@ def check_even(number):
 print("===== Student Information =====")
 show_student()
 
-student["marks"] = 90
+student["marks"] = 96
 print("\n===== After Updating Marks =====")
 show_student()
 
@@ -46,8 +46,8 @@ while i <= 5:
     i += 1
 
 print("\n===== Even or Odd =====")
-check_even(8)
-check_even(7)
+check_even(80)
+check_even(77)
 
 marks = [80, 75, 90, 65, 85]
 
